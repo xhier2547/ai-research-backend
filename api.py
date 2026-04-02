@@ -20,11 +20,11 @@ app = FastAPI(title="Multi-Agent AI API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "https://ai-research-frontend-plum.vercel.app" # เพิ่ม URL นี้เข้าไป
+        "http://localhost:3000", # สำหรับเทสต์ในเครื่อง
+        "https://ai-research-frontend-plum.vercel.app" # URL หน้าเว็บตัวจริงของคุณ
     ],
     allow_credentials=True,
-    allow_methods=["*"],  # <--- บรรทัดนี้แหละครับที่จะเปิดทางให้คำสั่ง OPTIONS ผ่าน
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
