@@ -1,4 +1,4 @@
-# 🤖 AI Research Assistant (Multi-Agent System)
+# AI Research Assistant (Multi-Agent System)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
@@ -8,10 +8,11 @@
 
 > **Automated Deep Research & Professional Report Generation.**  
 > ระบบวิเคราะห์และสรุปข้อมูลอัจฉริยะด้วยทีม AI Agent นักวิจัย วิเคราะห์ และนักเขียนมืออาชีพ
+> Link Demo: [Live Demo](https://ai-research-frontend-plum.vercel.app/)
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Multi-Agent Orchestration**: Collaborative AI workflow using Researcher, Analyst, and Writer roles.
 - **Real-time Web Search**: Integrated with Tavily Search AI for current, accurate data.
@@ -21,7 +22,7 @@
 
 ---
 
-## 🛠️ Tech Stack 
+## Tech Stack 
 
 ### Backend (Intelligence)
 - **CrewAI**: Agent coordination and process management.
@@ -38,7 +39,7 @@
 
 ---
 
-## 🏗️ System Architecture (Agent Workflow)
+## System Architecture (Agent Workflow)
 
 ```mermaid
 graph TD
@@ -60,7 +61,7 @@ graph TD
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -109,7 +110,7 @@ npm run dev
 
 ---
 
-## 📝 License
+## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🤝 Contact
