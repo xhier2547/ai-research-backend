@@ -21,8 +21,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://192.168.0.104:3000" # ต้องมี IP ของเครื่องคุณแบบเป๊ะๆ
+        "https://ai-research-frontend-plum.vercel.app" # เพิ่ม URL นี้เข้าไป
     ],
     allow_credentials=True,
     allow_methods=["*"],  # <--- บรรทัดนี้แหละครับที่จะเปิดทางให้คำสั่ง OPTIONS ผ่าน
