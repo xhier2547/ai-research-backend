@@ -33,7 +33,7 @@ tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 # ---------------------------------------------------------
 # Primary: High daily quota (500/day) & Fast
 primary_llm = LLM(
-    model="gemini/gemini-3.1-flash-lite",
+    model="gemini/gemini-2.5-flash",
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
